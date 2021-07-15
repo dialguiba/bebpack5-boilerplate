@@ -1,0 +1,32 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "webpack5 basic config",
+  "steps": [
+    {
+      "file": "webpack.config.js",
+      "description": "for setting what file or files webpack will look at to compile",
+      "line": 8
+    },
+    {
+      "file": "webpack.config.js",
+      "description": "Where production code gets built",
+      "line": 11
+    },
+    {
+      "file": "package.json",
+      "description": "script for building the code\n- npm run build",
+      "line": 8
+    },
+    {
+      "file": "webpack.config.js",
+      "description": "HtmlWebpackPlugin .- For making the html file to automatically bring in the scripts",
+      "line": 29
+    },
+    {
+      "file": "webpack.config.js",
+      "description": "Remove/clean build folders after each build",
+      "line": 30
+    }
+  ],
+  "ref": "master"
+}
